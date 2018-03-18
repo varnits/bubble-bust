@@ -1,0 +1,39 @@
+[
+    {
+        "outputFile": "F:\\Curieo\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "F:\\Curieo\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 50,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 564
+                },
+                "from": {
+                    "file": "F:\\Curieo\\android\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    }
+]

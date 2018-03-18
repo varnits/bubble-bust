@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.8\a35a0076fbce873f9c2d5a1a1c8066244231bb3c\gdx-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a35a0076fbce873f9c2d5a1a1c8066244231bb3c">
+        <dex dex="F:\Curieo\android\build\intermediates\pre-dexed\debug\gdx-1.9.8_363d54e55cbe1572d9f9b782cccfb179d5308cfc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Curieo\core\build\libs\core-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a99560c564d2abe2b808a9eb54857a5e32846e92">
+        <dex dex="F:\Curieo\android\build\intermediates\pre-dexed\debug\core-1.0_2b52fbf349c50527796f258d6d28edc71cf38146.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-box2d\1.9.8\6f0497b7958216464101adfb7bdc3a0f7b88d6d3\gdx-box2d-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6f0497b7958216464101adfb7bdc3a0f7b88d6d3">
+        <dex dex="F:\Curieo\android\build\intermediates\pre-dexed\debug\gdx-box2d-1.9.8_4743e7929a4c2b9104b6269fd8ed9783b0cf3efc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.8\84024cd60ad6f26370891fbcd17de9f0167e662\gdx-backend-android-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="084024cd60ad6f26370891fbcd17de9f0167e662">
+        <dex dex="F:\Curieo\android\build\intermediates\pre-dexed\debug\gdx-backend-android-1.9.8_807f5016ac9471812d58612a325bf95da11defa4.jar" />
+    </item>
+
+</items>

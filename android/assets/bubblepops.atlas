@@ -1,0 +1,52 @@
+
+bubblepops.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+blue
+  rotate: false
+  xy: 1, 1
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+bubble-green-md
+  rotate: false
+  xy: 303, 1
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+red bubble
+  rotate: false
+  xy: 605, 76
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+
+bubblepops2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+test-me!/input/test02 (non POT)
+  rotate: false
+  xy: 1, 1
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+test-me!/input/test01
+  rotate: false
+  xy: 303, 45
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+test-me!/input/test03 (multi shapes)
+  rotate: false
+  xy: 561, 45
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
