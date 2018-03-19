@@ -11,6 +11,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
+import com.badlogic.gdx.utils.TimeUtils;
 
 /**
  * Created by user on 3/18/2018.
@@ -31,6 +32,7 @@ public class BubbleBuster extends ApplicationAdapter {
     private int random=1;
     private String Score;
     BitmapFont ScoreBitmap;
+    private long lastDropTime;
     @Override
     public void create() {
         //Texture Creation
@@ -77,6 +79,7 @@ public class BubbleBuster extends ApplicationAdapter {
         bubble.y = MathUtils.random(50, 480 - 50);
         bubble.width = 50;
         bubble.height = 50;
+        lastDropTime = TimeUtils.nanoTime();
         random();
     }
     //render method dictates frames during the game
@@ -116,6 +119,10 @@ public class BubbleBuster extends ApplicationAdapter {
             bubble=null;
             bubble();
 
+        }
+        else if(TimeUtils.nanoTime() - lastDropTime > 1000000000) {
+            bubble = null;
+            bubble();
         }
     }
     @Override
